@@ -54,10 +54,12 @@ PCA Data Clustering: Clustering in the PCA-reduced space showed clearer, more de
 How to Run the Project
 * Install Dependencies: Ensure you have Python installed along with the necessary libraries: pandas, numpy, scikit-learn, matplotlib, and hvplot.
 * Install the required libraries using: 
-``` git bash```
 
-Copy code
-```pip install pandas numpy scikit-learn matplotlib hvplot```
+```
+git bash 
+pip install pandas numpy scikit-learn matplotlib hvplot
+```
+
 * Run the Analysis:
   Execute the Jupyter notebook or Python script to perform the clustering analysis and visualize the results.
 * Visualize the Results:
