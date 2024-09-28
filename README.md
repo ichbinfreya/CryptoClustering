@@ -40,6 +40,7 @@ Advantage: Simplifies the clustering process by removing noise and redundant inf
 
 ## Results and Observations
 Original Data Clustering: Clustering in the original feature space revealed distinct clusters, but with some overlap, indicating the presence of noise or redundant features.
+
 PCA Data Clustering: Clustering in the PCA-reduced space showed clearer, more defined clusters. This suggests that PCA successfully reduced noise and focused on the most informative aspects of the data.
 
 ## Comparison: The clusters formed in the PCA space were more compact and well-separated, demonstrating the advantage of using PCA before applying K-Means clustering.
@@ -51,15 +52,16 @@ PCA Data Clustering: Clustering in the PCA-reduced space showed clearer, more de
 * Visualization: PCA transforms high-dimensional data into 2D or 3D spaces, making it easier to visualize and interpret the clustering results.
 
 How to Run the Project
-Install Dependencies: Ensure you have Python installed along with the necessary libraries: pandas, numpy, scikit-learn, matplotlib, and hvplot.
-Install the required libraries using: 
+* Install Dependencies: Ensure you have Python installed along with the necessary libraries: pandas, numpy, scikit-learn, matplotlib, and hvplot.
+* Install the required libraries using: 
 ``` git bash```
+
 Copy code
 ```pip install pandas numpy scikit-learn matplotlib hvplot```
-Run the Analysis:
-Execute the Jupyter notebook or Python script to perform the clustering analysis and visualize the results.
-Visualize the Results:
-The final scatter plots and inertia plots will be generated as output, showing the clustering of cryptocurrencies in both the original and PCA-reduced spaces.
+* Run the Analysis:
+  Execute the Jupyter notebook or Python script to perform the clustering analysis and visualize the results.
+* Visualize the Results:
+  The final scatter plots and inertia plots will be generated as output, showing the clustering of cryptocurrencies in both the original and PCA-reduced spaces.
 
 # Conclusion
 This project demonstrates the effectiveness of combining PCA with K-Means clustering for improved cluster analysis. By reducing dimensionality and focusing on the most significant features, PCA enhances the clarity and interpretability of the clusters. This approach can be applied to various domains where high-dimensional data poses challenges for traditional clustering methods.
