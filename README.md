@@ -3,7 +3,7 @@
 This project applies unsupervised machine learning techniques to cluster various cryptocurrencies based on their price change percentages over different time periods. The primary goal is to explore the natural groupings of cryptocurrencies and understand the impact of dimensionality reduction using Principal Component Analysis (PCA) on the clustering results.
 
 ## Methodology
-The project leverages the K-Means clustering algorithm, a popular unsupervised learning technique used to partition data into distinct clusters based on feature similarity. We perform clustering on both the original feature space and a reduced-dimensional space obtained using PCA to assess the impact of feature reduction on clustering performance.
+The project leverages the K-Means clustering algorithm, a popular unsupervised learning technique used to partition data into distinct clusters based on feature similarity. I perform clustering on both the original feature space and a reduced-dimensional space obtained using PCA to assess the impact of feature reduction on clustering performance.
 
 ### Key Steps
 1. Data Preprocessing:
@@ -32,7 +32,7 @@ Inertia: Measures the compactness of clusters. Lower inertia indicates tighter a
 Choosing k: The Elbow Method is used to select the optimal number of clusters by plotting k values against inertia.
 
 **Principal Component Analysis (PCA)**:
-Purpose: Reduces the number of features while retaining the most significant variance in the data.
+The purpose is to reduces the number of features while retaining the most significant variance in the data.
 Advantage: Simplifies the clustering process by removing noise and redundant information, leading to better-defined clusters.
 
 **Explained Variance**: Represents the proportion of the dataset's total variance captured by each principal component.
